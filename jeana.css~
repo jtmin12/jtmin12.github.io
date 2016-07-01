@@ -1,0 +1,9 @@
+body {
+	font-family: Courier New, sans-serif;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+
