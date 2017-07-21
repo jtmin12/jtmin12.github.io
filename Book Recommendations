@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Recommendations</title>
+
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+<style>
+  h1{
+    background-color: WhiteSmoke;
+    font-family:'Poppins', sans-serif;
+    overflow-y: auto;
+    position: fixed;
+    left: 0;
+
+    top: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    font-size: 40px;
+} 
+
+ .list {
+    background-color: #DBE9EE;
+    box-sizing: border-box;
+    padding: 100px;
+    position: fixed;
+    left: 0;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    font-size: 20px;
+    font-family: 'Muli', sans-serif;
+    min-height: 100px;
+    max-height: 200px;
+ }
+
+  p {
+    font-size: 20px;
+    text-align: left;
+}
+ 
+ * {
+   background-color: #DBE9EE;  
+ }
+ 
+</style>
+</head>
+
+<body>
+
+<h1>Book Recommendations</h1>
+
+<div class="list">
+<h2>Fantasy</h2>
+
+<p> <a href=" https://www.w3schools.com/code/tryit.asp?filename=FHQY74N111QV" target="_blank" >Jinx</a> <br> by Sage Blackwood</p>
+
+<p> <a href=" https://www.w3schools.com/code/tryit.asp?filename=FHQYA4RG810L" target="_blank" >The Magic Thief</a> <br> by Sarah Prineas </p>
+
+<p> <a href="https://www.w3schools.com/code/tryit.asp?filename=FHQY198Y099D" target="_blank" >The Seems</a> <br> by John Hulme and Michael Wexler </p>
+
+<p class=red-queen > <a href="https://www.w3schools.com/code/tryit.asp?filename=FHRXSHD4SPDR" target="_blank">Red Queen</a> <br> by Victoria Aveyard</p>
+
+<h3>Sci-Fi</h3>
+</div>
+
+</body>
+</html>
+
